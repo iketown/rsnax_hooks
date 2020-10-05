@@ -1,3 +1,6 @@
 import React from "react";
+import { Button } from "semantic-ui-react";
 
-export const Button: React.FC = ({ children }) => <button>{children}</button>;
+const ButtonComp: React.FC = ({ children }) => <Button>{children}</Button>;
+
+export default ButtonComp;
